@@ -31,4 +31,4 @@ security_cc_flags = [
 add_project_arguments(cc.get_supported_arguments(security_cc_flags), language : 'c')
 add_project_link_arguments(cc.get_supported_link_arguments(security_link_flags), language : 'c')
 
-executable('lighter', 'main.c', dependencies : [ m_dep, qlibc_deps ])
+executable('lighter', 'main.c', dependencies : [ m_dep, qlibc_deps ], install : true)

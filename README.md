@@ -8,7 +8,7 @@ You may need to install `qlibc̀` first.
 
 ```
 meson bin
-ninja -C bin
+ninja -C bin install
 ```
 
 
